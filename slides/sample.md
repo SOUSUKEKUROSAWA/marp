@@ -1,8 +1,15 @@
 ---
 marp: true
+theme: default
+# theme: gaia
+# theme: uncover
+class: invert
+
 # theme: beamer
+
 # theme: border
-theme: gradient
+
+# theme: gradient
 # class: blue
 ---
 <!--
@@ -16,7 +23,7 @@ headingDivider: 1
 - `ddd`
   - eee
     - fff
-# Page2
+# Page3
 > ggg
 ```
 hi!
