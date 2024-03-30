@@ -10,8 +10,10 @@
 ---
 marp: true
 theme: <theme name>
-class: <class name>
+class:
+  - <class name>
 ---
+
 <!-- headingDivider: 1 -->
 <!-- size: 16:9 -->
 <!-- paginate: true -->
@@ -49,6 +51,10 @@ class: <class name>
 - `markdown.marp.export`
 - `.pdf`または`.pptx`で出力
 
-## Marp Community Themes
+## How to Add Theme
 
-<https://github.com/rnd195/marp-community-themes>
+- select new theme
+  - <https://github.com/rnd195/marp-community-themes>
+- `Ctrl + ,`
+- `markdown.marp.themes`
+- add `./themes/*.css`

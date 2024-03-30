@@ -1,16 +1,41 @@
 ---
 marp: true
+
 theme: default
+class: 
+    - invert
+
 # theme: gaia
+# class:
+#     - invert
+#     - gaia
+#     - lead
+
 # theme: uncover
-class: invert
+# class:
+#     - invert
 
 # theme: beamer
 
 # theme: border
 
 # theme: gradient
-# class: blue
+# class:
+#     - blue
+
+# theme: academic
+# class:
+#     - lead
+
+# theme: graph_paper
+# class:
+#     - lead
+
+# theme: rose-pine
+
+# theme: rose-pine-dawn
+
+# theme: rose-pine-moon
 ---
 
 <!-- headingDivider: 1 -->
