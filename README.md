@@ -1,49 +1,27 @@
-# Marp
+# Slides by Marp
 
-## How to Use
+## Getting Started
 
-- `cd slides`
-- `touch <file name>.md`
+```sh
+touch ./slides/<file name>.md
+```
 
 ```yml
-# Settings
 ---
 marp: true
-theme: <theme name>
+theme: <theme name> # ./themes 内から選択
 class:
   - <class name>
 ---
 
-<!-- headingDivider: 1 -->
-<!-- size: 16:9 -->
-<!-- paginate: true -->
-<!-- footer: フーター文字列 -->
-<!-- math: katex -->
+<!-- headingDivider: 1 -->  # 1=「#」をスライドの区切りと見なす. 2=「##」をスライドの区切りと見なす.
+<!-- size: 16:9 -->         # 縦横比. 4:3 or 16:9
+<!-- paginate: true -->     # true の場合，ページ番号を表示
+<!-- footer: xxx -->        # フッター文字列
+<!-- math: katex -->        # KaTeX 形式の数式記法の使用を宣言
 
 # Contens Start...
 ```
-
-- theme name
-  - `./themes`内から選択
-- headingDivider
-  - 1
-    - `#`をスライドの区切りと見なす
-  - 2
-    - `##`をスライドの区切りと見なす
-- size
-  - スライドの縦横比
-    - 4:3
-    - 16:9
-- paginate
-  - true
-    - ページ番号表示
-  - false
-    - ページ番号非表示
-- footer
-  - フッター文字列定義
-- math
-  - katex
-    - KaTeX形式の数式記法の使用を宣言
 
 ## How to Export
 
