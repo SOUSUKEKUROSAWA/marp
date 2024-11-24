@@ -1,9 +1,9 @@
 ---
 marp: true
 
-theme: default
-class: 
-    - invert
+# theme: default
+# class: 
+#     - invert
 
 # theme: gaia
 # class:
@@ -36,6 +36,8 @@ class:
 # theme: rose-pine-dawn
 
 # theme: rose-pine-moon
+
+# theme: dracula
 ---
 
 <!-- headingDivider: 1 -->
