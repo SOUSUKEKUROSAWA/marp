@@ -12,7 +12,7 @@ class:
 
 # :revolving_hearts: 尊敬に満ちたコードレビュー
 
-黒澤颯介（Sosuke Kurosawa）/ Lima
+黒澤颯介（Sosuke Kurosawa）
 
 # はじめに
 
