@@ -2,69 +2,60 @@
 title           : Sample
 author          : Sosuke Kurosawa
 description     : This is sample slide of marp
-keywords        : Marp, Slides
+keywords        : [ slide, marp ] # （左）抽象 -> 具体（右）
 marp            : true
-headingDivider  : 1
-size            : 16:9
-# size          : 4:3
+headingDivider  : 1     # 1 =「#」区切り，2 =「##」区切り
+size            : 16:9  # 16:9 or 4:3
 paginate        : true
 footer          : This is sample slide of marp
 math            : katex
-
-# theme: default
-# class: 
-#     - invert
-# theme: gaia
-# class:
-#     - invert
-#     - gaia
-#     - lead
-# theme: uncover
-# class:
-#     - invert
-# theme: beamer
-# theme: border
-# theme: gradient
-# class:
-#     - blue
-# theme: academic
-# class:
-#     - lead
-# theme: graph_paper
-# class:
-#     - lead
-# theme: rose-pine
-# theme: rose-pine-dawn
-# theme: rose-pine-moon
-# theme: dracula
-# theme: arendt
-# theme: copernicus
-# theme: descartes
-# theme: einstein
-# theme: freud
-# theme: godel
-# theme: hegel
-# theme: heidegger
-# theme: hume2
-# theme: husserl
-# theme: jobs
-# theme: kant
-# theme: king
-# theme: leibniz
-# theme: orwell
-# theme: pascal
-# theme: plato
-# theme: schema
-# theme: simple
-# class:
-#   - invert
-# theme: socrates
-# theme: structure
-# theme: turing
-# theme: weber
+# theme         : default
+# class         : invert
+# theme         : gaia
+# class         : [ invert, gaia, lead ]
+# theme         : uncover
+# class         : invert
+# theme         : beamer
+# theme         : border
+# theme         : gradient
+# class         : blue
+# theme         : academic
+# class         : lead
+# theme         : graph_paper
+# class         : lead
+# theme         : rose-pine
+# theme         : rose-pine-dawn
+# theme         : rose-pine-moon
+# theme         : dracula
+# theme         : arendt
+# theme         : copernicus
+# theme         : descartes
+# theme         : einstein
+# theme         : freud
+# theme         : godel
+# theme         : hegel
+# theme         : heidegger
+# theme         : hume2
+# theme         : husserl
+# theme         : jobs
+# theme         : kant
+# theme         : king
+# theme         : leibniz
+# theme         : orwell
+# theme         : pascal
+# theme         : plato
+# theme         : schema
+# theme         : simple
+# class         : invert
+# theme         : socrates
+# theme         : structure
+# theme         : turing
+# theme         : weber
 ---
 
-# Elemente und Ursprünge totaler Herrschaft
+# タイトル
+
+黒澤颯介（Sosuke Kurosawa）
 
 ## Antisemitismus, Imperialismus, totale Herrschaft
 
@@ -94,7 +85,6 @@ When the neet to  make strong assertions becomes inevitable:
 # Code
 
 ```haskell
-
 primes = filterPrime [2..]
   where filterPrime (p:xs) =
           p : filterPrime [x | x <- xs, x `mod` p /= 0]
@@ -106,8 +96,7 @@ seqLength Nil = 0
 seqLength (Cons _ xs) = 1 + seqLength xs
 
 seqAppend Nil ys = ys
-seqAppend (Cons x xs) ys = Cons x (seqAppend xs ys)    
-     
+seqAppend (Cons x xs) ys = Cons x (seqAppend xs ys)
 ```
 
 # Tables
